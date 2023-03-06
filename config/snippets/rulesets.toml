@@ -27,7 +27,7 @@ group = "🌍 Bilibili"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BiliBili/BiliBili.list"
 
 [[rulesets]]
-group = "🌍 Microsoft"
+group = "Ⓜ️ Microsoft"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Microsoft/Microsoft.list"
 
 [[rulesets]]
