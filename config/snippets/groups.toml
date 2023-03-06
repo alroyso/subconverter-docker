@@ -1,0 +1,209 @@
+[[custom_groups]]
+name = "🔰 Proxy"
+type = "select"
+rule = [
+    "[]🎯 DIRECT",
+    ".*"
+]
+
+[[custom_groups]]
+name = "🇺🇸 us"
+type = "select"
+rule = [
+    "(美国|us)"
+]
+
+[[custom_groups]]
+name = "🇭🇰 HK"
+type = "select"
+rule = [
+    "(香港|hk)"
+]
+
+[[custom_groups]]
+name = "🇯🇵 JP"
+type = "select"
+rule = [
+    "(香港|hk)"
+]
+
+[[custom_groups]]
+name = "🇨🇳 TW"
+type = "select"
+rule = [
+    "(香港|hk)"
+]
+
+[[custom_groups]]
+name = "🇸🇬 SG"
+type = "select"
+rule = [
+    "(香港|hk)"
+]
+
+ 
+
+[[custom_groups]]
+name = "📺 NETFLIX"
+type = "select"
+rule = [
+    "[]🇺🇸 us",
+    "[]🇭🇰 hk",
+    "[]🇨🇳 tw",
+    "[]🇸🇬 sg",
+    "[]🎯 DIRECT",
+]
+
+[[custom_groups]]
+name = "📺 DisneyPlus"
+type = "select"
+rule = [
+    "[]🇺🇸 us",
+    "[]🇭🇰 hk",
+    "[]🇨🇳 tw",
+    "[]🇸🇬 sg",
+    "[]🎯 DIRECT",
+]
+
+[[custom_groups]]
+name = "📺 HboUsA"
+type = "select"
+rule = [
+    "[]🇺🇸 us",
+    "[]🎯 DIRECT",
+]
+
+[[custom_groups]]
+name = "📺 HboHK"
+type = "select"
+rule = [
+    "[]🇭🇰 hk",
+    "[]🎯 DIRECT",
+]
+
+[[custom_groups]]
+name = "🌍 Global"
+type = "select"
+rule = [
+    "[]🇺🇸 us",
+    "[]🇭🇰 hk",
+    "[]🇨🇳 tw",
+    "[]🇸🇬 sg",
+    "[]🎯 DIRECT",
+]
+
+[[custom_groups]]
+name = "🌍 GlobalMedia"
+type = "select"
+rule = [
+    "[]🇺🇸 us",
+    "[]🇭🇰 hk",
+    "[]🇨🇳 tw",
+    "[]🇸🇬 sg",
+    "[]🎯 DIRECT",
+]
+
+[[custom_groups]]
+name = "🌍 Bilibili"
+type = "select"
+rule = [
+    "[]🇭🇰 hk",
+    "[]🇨🇳 tw",
+    "[]🎯 DIRECT",
+]
+
+[[custom_groups]]
+name = "Ⓜ️ Microsoft"
+type = "select"
+rule = [
+    "[]🇺🇸 us",
+    "[]🇭🇰 hk",
+    "[]🇨🇳 tw",
+    "[]🇸🇬 sg",
+    "[]🎯 DIRECT",
+]
+
+[[custom_groups]]
+name = "🍎 Apple"
+type = "select"
+rule = [
+    "[]🇺🇸 us",
+    "[]🇭🇰 hk",
+    "[]🇨🇳 tw",
+    "[]🇸🇬 sg",
+    "[]🎯 DIRECT",
+]
+
+[[custom_groups]]
+name = "🎮 Steam"
+type = "select"
+rule = [
+    "[]🇺🇸 us",
+    "[]🇭🇰 hk",
+    "[]🇨🇳 tw",
+    "[]🇸🇬 sg",
+]
+
+
+[[custom_groups]]
+name = "📺 YouTub"
+type = "select"
+rule = [
+    "[]🇺🇸 us",
+    "[]🇭🇰 hk",
+    "[]🇨🇳 tw",
+    "[]🇸🇬 sg",
+]
+
+[[custom_groups]]
+name = "🌏 Google"
+type = "select"
+rule = [
+    "[]🇺🇸 us",
+    "[]🇭🇰 hk",
+    "[]🇨🇳 tw",
+    "[]🇸🇬 sg",
+]
+
+[[custom_groups]]
+name = "🎶 TikTok"
+type = "select"
+rule = [
+    "[]🇺🇸 us",
+    "[]🇭🇰 hk",
+    "[]🇨🇳 tw",
+    "[]🇸🇬 sg",
+]
+
+[[custom_groups]]
+name = "📲 Telegram"
+type = "select"
+rule = [
+    "[]🇺🇸 us",
+    "[]🇭🇰 hk",
+    "[]🇨🇳 tw",
+    "[]🇸🇬 sg",
+]
+
+[[custom_groups]]
+name = "🎯 DIRECT"
+type = "select"
+rule = [
+    "[]🎯 DIRECT",
+]
+
+[[custom_groups]]
+name = "🚫 AdBlock"
+type = "select"
+rule = [
+    "[]REJECT", 
+    "[]🎯 DIRECT",
+]
+
+[[custom_groups]]
+name = "🐟 Other"
+type = "select"
+rule = [
+    "[]🔰 Proxy",
+    "[]🎯 DIRECT"
+]

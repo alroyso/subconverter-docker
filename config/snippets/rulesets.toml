@@ -1,0 +1,89 @@
+[[rulesets]]
+group = "📺 NETFLIX"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list"
+
+[[rulesets]]
+group = "📺 DisneyPlus"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Disney/Disney.list"
+
+[[rulesets]]
+group = "📺 HboUsA"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/HBOUSA/HBOUSA.list"
+
+[[rulesets]]
+group = "📺 HboHK"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/HBOHK/HBOHK.list"
+
+[[rulesets]]
+group = "🌍 Global"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global.list"
+
+[[rulesets]]
+group = "🌍 GlobalMedia"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GlobalMedia/GlobalMedia.list"
+
+[[rulesets]]
+group = "🌍 Bilibili"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BiliBili/BiliBili.list"
+
+[[rulesets]]
+group = "🌍 Microsoft"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Microsoft/Microsoft.list"
+
+[[rulesets]]
+group = "🍎 Apple"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple.list"
+
+[[rulesets]]
+group = "🎮 Steam"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Steam/Steam.list"
+
+[[rulesets]]
+group = "📺 YouTub"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list"
+
+[[rulesets]]
+group = "🌏 Google"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google.list"
+
+[[rulesets]]
+group = "🎶 TikTok"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TikTok/TikTok.list"
+
+[[rulesets]]
+group = "📲 Telegram"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Telegram/Telegram.list"
+
+[[rulesets]]
+group = "🚫 AdBlock"
+ruleset = "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/AdRule.list"
+
+[[rulesets]]
+group = "🚫 AdBlock"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Hijacking/Hijacking.list"
+
+[[rulesets]]
+group = "🎯 DIRECT"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Lan/Lan.list"
+
+[[rulesets]]
+group = "🎯 DIRECT"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/China/China.list"
+
+[[rulesets]]
+group = "🎯 DIRECT"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaIPs/ChinaIPs.list"
+
+[[rulesets]]
+group = "🎯 DIRECT"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PrivateTracker/PrivateTracker.list"
+
+
+[[rulesets]]
+group = "🎯 DIRECT"
+ruleset = "[]GEOIP,CN"
+
+
+[[rulesets]]
+group = "🐟 Other"
+ruleset = "[]FINAL"
