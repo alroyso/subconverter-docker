@@ -2,7 +2,7 @@
 name = "🔰 Proxy"
 type = "select"
 rule = [
-    "[]🎯 DefaultDirect",
+    "[]🎯 Mainland",
     ".*"
 ]
 
@@ -51,7 +51,7 @@ rule = [
     "[]🇭🇰 hk",
     "[]🇨🇳 tw",
     "[]🇸🇬 sg",
-    "[]🎯 DefaultDirect",
+    "[]🎯 Mainland",
 ]
 
 [[custom_groups]]
@@ -62,7 +62,7 @@ rule = [
     "[]🇭🇰 hk",
     "[]🇨🇳 tw",
     "[]🇸🇬 sg",
-    "[]🎯 DefaultDirect",
+    "[]🎯 Mainland",
 ]
 
 [[custom_groups]]
@@ -70,7 +70,7 @@ name = "📺 HboUsA"
 type = "select"
 rule = [
     "[]🇺🇸 us",
-    "[]🎯 DefaultDirect",
+    "[]🎯 Mainland",
 ]
 
 [[custom_groups]]
@@ -78,7 +78,7 @@ name = "📺 HboHK"
 type = "select"
 rule = [
     "[]🇭🇰 hk",
-    "[]🎯 DefaultDirect",
+    "[]🎯 Mainland",
 ]
 
 [[custom_groups]]
@@ -89,7 +89,7 @@ rule = [
     "[]🇭🇰 hk",
     "[]🇨🇳 tw",
     "[]🇸🇬 sg",
-    "[]🎯 DefaultDirect",
+    "[]🎯 Mainland",
 ]
 
 [[custom_groups]]
@@ -100,7 +100,7 @@ rule = [
     "[]🇭🇰 hk",
     "[]🇨🇳 tw",
     "[]🇸🇬 sg",
-    "[]🎯 DefaultDirect",
+    "[]🎯 Mainland",
 ]
 
 [[custom_groups]]
@@ -109,7 +109,7 @@ type = "select"
 rule = [
     "[]🇭🇰 hk",
     "[]🇨🇳 tw",
-    "[]🎯 DefaultDirect",
+    "[]🎯 Mainland",
 ]
 
 [[custom_groups]]
@@ -120,7 +120,7 @@ rule = [
     "[]🇭🇰 hk",
     "[]🇨🇳 tw",
     "[]🇸🇬 sg",
-    "[]🎯 DefaultDirect",
+    "[]🎯 Mainland",
 ]
 
 [[custom_groups]]
@@ -131,7 +131,7 @@ rule = [
     "[]🇭🇰 hk",
     "[]🇨🇳 tw",
     "[]🇸🇬 sg",
-    "[]🎯 DefaultDirect",
+    "[]🎯 Mainland",
 ]
 
 [[custom_groups]]
@@ -186,7 +186,7 @@ rule = [
 ]
 
 [[custom_groups]]
-name = "🎯 DefaultDirect"
+name = "🎯 Mainland"
 type = "select"
 rule = [
     "[]DIRECT",
@@ -197,7 +197,7 @@ name = "🚫 AdBlock"
 type = "select"
 rule = [
     "[]REJECT", 
-    "[]🎯 DefaultDirect",
+    "[]🎯 Mainland",
 ]
 
 [[custom_groups]]
@@ -205,5 +205,5 @@ name = "🐟 Other"
 type = "select"
 rule = [
     "[]🔰 Proxy",
-    "[]🎯 DefaultDirect"
+    "[]🎯 Mainland"
 ]
