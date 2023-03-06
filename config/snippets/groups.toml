@@ -189,7 +189,7 @@ rule = [
 name = "🎯 DefaultDirect"
 type = "select"
 rule = [
-    "[]🎯 DIRECT",
+    "[]DIRECT",
 ]
 
 [[custom_groups]]
