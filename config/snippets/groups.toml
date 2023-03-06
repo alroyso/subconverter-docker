@@ -14,28 +14,28 @@ rule = [
 ]
 
 [[custom_groups]]
-name = "🇭🇰 HK"
+name = "🇭🇰 hk"
 type = "select"
 rule = [
     "(香港|hk)"
 ]
 
 [[custom_groups]]
-name = "🇯🇵 JP"
+name = "🇯🇵 jp"
 type = "select"
 rule = [
-    "(香港|hk)"
+    "(日本|jp)"
 ]
 
 [[custom_groups]]
-name = "🇨🇳 TW"
+name = "🇨🇳 tw"
 type = "select"
 rule = [
     "(台湾|TW|tw)"
 ]
 
 [[custom_groups]]
-name = "🇸🇬 SG"
+name = "🇸🇬 sg"
 type = "select"
 rule = [
     "(新加坡|sg|SG)"
