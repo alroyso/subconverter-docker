@@ -63,24 +63,24 @@ group = "🚫 AdBlock"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Hijacking/Hijacking.list"
 
 [[rulesets]]
-group = "🎯 DIRECT"
+group = "🎯 DefaultDirect"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Lan/Lan.list"
 
 [[rulesets]]
-group = "🎯 DIRECT"
+group = "🎯 DefaultDirect"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/China/China.list"
 
 [[rulesets]]
-group = "🎯 DIRECT"
+group = "🎯 DefaultDirect"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaIPs/ChinaIPs.list"
 
 [[rulesets]]
-group = "🎯 DIRECT"
+group = "🎯 DefaultDirect"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PrivateTracker/PrivateTracker.list"
 
 
 [[rulesets]]
-group = "🎯 DIRECT"
+group = "🎯 DefaultDirect"
 ruleset = "[]GEOIP,CN"
 
 

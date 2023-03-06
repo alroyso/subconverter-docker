@@ -7,7 +7,7 @@ api_mode = true
 api_access_token = "password"
 
 # Default URLs, used when no URL is provided in request, use "|" to separate multiple subscription links, supports local files/URL
-default_url = ["https://sub.szfa.xyz"]
+default_url = [""]
 
 # Insert subscription links to requests. Can be used to add node(s) to all exported subscriptions.
 enable_insert = true
