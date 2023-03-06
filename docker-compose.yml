@@ -6,7 +6,7 @@ services:
     container_name: subconverter
     restart: always
     environment:
-      - SUB_PASSWORD=slaljsljdaskl12312lklaka # Please Modify This
+      - SUB_PASSWORD=You_Password # Please Modify This
       # - LISTEN=127.0.0.1 # Optional
       #- PORT=25500 # Optional
     ports:
