@@ -31,14 +31,14 @@ rule = [
 name = "🇨🇳 TW"
 type = "select"
 rule = [
-    "(香港|hk)"
+    "(台湾|TW|tw)"
 ]
 
 [[custom_groups]]
 name = "🇸🇬 SG"
 type = "select"
 rule = [
-    "(香港|hk)"
+    "(新加坡|sg|SG)"
 ]
 
  
