@@ -71,16 +71,16 @@ rule = [
 name = "📺 HboUsA"
 type = "select"
 rule = [
-    "[]🇺🇸 us",
-    "[]🎯 Mainland",
+    "[]us",
+    "[]DIRECT",
 ]
 
 [[custom_groups]]
 name = "📺 HboHK"
 type = "select"
 rule = [
-    "[]🇭🇰 hk",
-    "[]🎯 Mainland",
+    "[]hk",
+    "[]DIRECT",
 ]
 
 [[custom_groups]]
