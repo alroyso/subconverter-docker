@@ -82,26 +82,25 @@ rule = [
 ]
 
 [[custom_groups]]
-name = "🌍 Global"
+name = "📺 YouTub"
 type = "select"
 rule = [
     "[]🇺🇸 us",
     "[]🇭🇰 hk",
     "[]🇨🇳 tw",
     "[]🇸🇬 sg",
-    "[]🎯 Mainland",
 ]
 
 [[custom_groups]]
-name = "🌍 GlobalMedia"
+name = "🌏 Google"
 type = "select"
 rule = [
     "[]🇺🇸 us",
     "[]🇭🇰 hk",
     "[]🇨🇳 tw",
     "[]🇸🇬 sg",
-    "[]🎯 Mainland",
 ]
+
 
 [[custom_groups]]
 name = "🌍 Bilibili"
@@ -145,25 +144,6 @@ rule = [
 ]
 
 
-[[custom_groups]]
-name = "📺 YouTub"
-type = "select"
-rule = [
-    "[]🇺🇸 us",
-    "[]🇭🇰 hk",
-    "[]🇨🇳 tw",
-    "[]🇸🇬 sg",
-]
-
-[[custom_groups]]
-name = "🌏 Google"
-type = "select"
-rule = [
-    "[]🇺🇸 us",
-    "[]🇭🇰 hk",
-    "[]🇨🇳 tw",
-    "[]🇸🇬 sg",
-]
 
 [[custom_groups]]
 name = "🎶 TikTok"
@@ -199,6 +179,29 @@ rule = [
     "[]REJECT", 
     "[]🎯 Mainland",
 ]
+
+[[custom_groups]]
+name = "🌍 Global"
+type = "select"
+rule = [
+    "[]🇺🇸 us",
+    "[]🇭🇰 hk",
+    "[]🇨🇳 tw",
+    "[]🇸🇬 sg",
+    "[]🎯 Mainland",
+]
+
+[[custom_groups]]
+name = "🌍 GlobalMedia"
+type = "select"
+rule = [
+    "[]🇺🇸 us",
+    "[]🇭🇰 hk",
+    "[]🇨🇳 tw",
+    "[]🇸🇬 sg",
+    "[]🎯 Mainland",
+]
+
 
 [[custom_groups]]
 name = "🐟 Other"
