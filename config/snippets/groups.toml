@@ -2,33 +2,33 @@
 name = "🔰 Proxy"
 type = "select"
 rule = [
-    "[]🎯 Mainland",
+    "[]DIRECT",
     ".*"
 ]
 
 [[custom_groups]]
-name = "🇺🇸 us"
+name = "us"
 type = "select"
 rule = [
     "(美国|us)"
 ]
 
 [[custom_groups]]
-name = "🇭🇰 hk"
+name = "hk"
 type = "select"
 rule = [
     "(香港|hk)"
 ]
 
 [[custom_groups]]
-name = "🇯🇵 jp"
+name = "jp"
 type = "select"
 rule = [
     "(日本|jp)"
 ]
 
 [[custom_groups]]
-name = "🇨🇳 tw"
+name = "tw"
 type = "select"
 rule = [
     "(台湾|TW|tw)"
@@ -47,22 +47,24 @@ rule = [
 name = "📺 NETFLIX"
 type = "select"
 rule = [
-    "[]🇺🇸 us",
-    "[]🇭🇰 hk",
-    "[]🇨🇳 tw",
-    "[]🇸🇬 sg",
-    "[]🎯 Mainland",
+    "[]us",
+    "[]hk",
+    "[]tw",
+    "[]jp",
+    "[]sg",
+    "[]DIRECT",
 ]
 
 [[custom_groups]]
 name = "📺 DisneyPlus"
 type = "select"
 rule = [
-    "[]🇺🇸 us",
-    "[]🇭🇰 hk",
-    "[]🇨🇳 tw",
-    "[]🇸🇬 sg",
-    "[]🎯 Mainland",
+    "[]us",
+    "[]hk",
+    "[]tw",
+    "[]jp",
+    "[]sg",
+    "[]DIRECT",
 ]
 
 [[custom_groups]]
@@ -85,20 +87,24 @@ rule = [
 name = "📺 YouTub"
 type = "select"
 rule = [
-    "[]🇺🇸 us",
-    "[]🇭🇰 hk",
-    "[]🇨🇳 tw",
-    "[]🇸🇬 sg",
+    "[]us",
+    "[]hk",
+    "[]tw",
+    "[]jp",
+    "[]sg",
+    "[]DIRECT",
 ]
 
 [[custom_groups]]
 name = "🌏 Google"
 type = "select"
 rule = [
-    "[]🇺🇸 us",
-    "[]🇭🇰 hk",
-    "[]🇨🇳 tw",
-    "[]🇸🇬 sg",
+    "[]us",
+    "[]hk",
+    "[]tw",
+    "[]jp",
+    "[]sg",
+    "[]DIRECT",
 ]
 
 
@@ -106,41 +112,45 @@ rule = [
 name = "🌍 Bilibili"
 type = "select"
 rule = [
-    "[]🇭🇰 hk",
-    "[]🇨🇳 tw",
-    "[]🎯 Mainland",
+    "[]hk",
+    "[]tw",
+    "[]DIRECT",
 ]
 
 [[custom_groups]]
 name = "Ⓜ️ Microsoft"
 type = "select"
 rule = [
-    "[]🇺🇸 us",
-    "[]🇭🇰 hk",
-    "[]🇨🇳 tw",
-    "[]🇸🇬 sg",
-    "[]🎯 Mainland",
+    "[]us",
+    "[]hk",
+    "[]tw",
+    "[]jp",
+    "[]sg",
+    "[]DIRECT",
 ]
 
 [[custom_groups]]
 name = "🍎 Apple"
 type = "select"
 rule = [
-    "[]🇺🇸 us",
-    "[]🇭🇰 hk",
-    "[]🇨🇳 tw",
-    "[]🇸🇬 sg",
-    "[]🎯 Mainland",
+    "[]us",
+    "[]hk",
+    "[]tw",
+    "[]jp",
+    "[]sg",
+    "[]DIRECT",
 ]
 
 [[custom_groups]]
 name = "🎮 Steam"
 type = "select"
 rule = [
-    "[]🇺🇸 us",
-    "[]🇭🇰 hk",
-    "[]🇨🇳 tw",
-    "[]🇸🇬 sg",
+    "[]us",
+    "[]hk",
+    "[]tw",
+    "[]jp",
+    "[]sg",
+    "[]DIRECT",
 ]
 
 
@@ -149,20 +159,24 @@ rule = [
 name = "🎶 TikTok"
 type = "select"
 rule = [
-    "[]🇺🇸 us",
-    "[]🇭🇰 hk",
-    "[]🇨🇳 tw",
-    "[]🇸🇬 sg",
+    "[]us",
+    "[]hk",
+    "[]tw",
+    "[]jp",
+    "[]sg",
+    "[]DIRECT",
 ]
 
 [[custom_groups]]
 name = "📲 Telegram"
 type = "select"
 rule = [
-    "[]🇺🇸 us",
-    "[]🇭🇰 hk",
-    "[]🇨🇳 tw",
-    "[]🇸🇬 sg",
+    "[]us",
+    "[]hk",
+    "[]tw",
+    "[]jp",
+    "[]sg",
+    "[]DIRECT",
 ]
 
 [[custom_groups]]
@@ -170,6 +184,11 @@ name = "🎯 Mainland"
 type = "select"
 rule = [
     "[]DIRECT",
+    "[]us",
+    "[]hk",
+    "[]tw",
+    "[]jp",
+    "[]sg",
 ]
 
 [[custom_groups]]
@@ -177,29 +196,31 @@ name = "🚫 AdBlock"
 type = "select"
 rule = [
     "[]REJECT", 
-    "[]🎯 Mainland",
+    "[]DIRECT",
 ]
 
 [[custom_groups]]
 name = "🌍 Global"
 type = "select"
 rule = [
-    "[]🇺🇸 us",
-    "[]🇭🇰 hk",
-    "[]🇨🇳 tw",
-    "[]🇸🇬 sg",
-    "[]🎯 Mainland",
+    "[]us",
+    "[]hk",
+    "[]tw",
+    "[]jp",
+    "[]sg",
+    "[]DIRECT",
 ]
 
 [[custom_groups]]
 name = "🌍 GlobalMedia"
 type = "select"
 rule = [
-    "[]🇺🇸 us",
-    "[]🇭🇰 hk",
-    "[]🇨🇳 tw",
-    "[]🇸🇬 sg",
-    "[]🎯 Mainland",
+    "[]us",
+    "[]hk",
+    "[]tw",
+    "[]jp",
+    "[]sg",
+    "[]DIRECT",
 ]
 
 
@@ -208,5 +229,5 @@ name = "🐟 Other"
 type = "select"
 rule = [
     "[]🔰 Proxy",
-    "[]🎯 Mainland"
+    "[]DIRECT"
 ]
