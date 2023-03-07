@@ -35,7 +35,7 @@ rule = [
 ]
 
 [[custom_groups]]
-name = "🇸🇬 sg"
+name = "sg"
 type = "select"
 rule = [
     "(新加坡|sg|SG)"
