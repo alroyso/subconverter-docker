@@ -15,14 +15,6 @@ group = "📺 HboHK"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/HBOHK/HBOHK.list"
 
 [[rulesets]]
-group = "🌍 Global"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global.list"
-
-[[rulesets]]
-group = "🌍 GlobalMedia"
-ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GlobalMedia/GlobalMedia.list"
-
-[[rulesets]]
 group = "🌍 Bilibili"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BiliBili/BiliBili.list"
 
@@ -54,6 +46,7 @@ ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master
 group = "📲 Telegram"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Telegram/Telegram.list"
 
+
 [[rulesets]]
 group = "🚫 AdBlock"
 ruleset = "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/AdRule.list"
@@ -78,11 +71,17 @@ ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master
 group = "🎯 Mainland"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PrivateTracker/PrivateTracker.list"
 
+[[rulesets]]
+group = "🌍 Global"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global.list"
+
+[[rulesets]]
+group = "🌍 GlobalMedia"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GlobalMedia/GlobalMedia.list"
 
 [[rulesets]]
 group = "🎯 Mainland"
 ruleset = "[]GEOIP,CN"
-
 
 [[rulesets]]
 group = "🐟 Other"
